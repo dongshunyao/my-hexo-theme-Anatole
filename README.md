@@ -7,7 +7,7 @@
 - 修改侧边栏图标宽度为 140 px（请自行替换图片）
 - 修改页面左右占比为 35% 和 65%
 
-这里是 [Demo](ry.huaji.store)
+这里是 [Demo](http://ry.huaji.store)
 
 ---
 
