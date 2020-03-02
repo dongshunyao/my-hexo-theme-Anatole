@@ -1,16 +1,20 @@
 # Blog
-keywords: Hexo,HTML,CSS,android,Linux
-author: Author Name,name@example.com
-description: Nothing lasts forever.
+keywords: Hexo,Blog
+author: 垚
+description: (✿╹◡╹) 相信的心就是你的魔法 (╹◡╹✿)
 avatar: /images/favicon.png
 
 # Social Accounts
 twitter: 
-rss: 
-weibo: 
 instagram: 
-github: 
+weibo: 
 facebook: 
+github: 
+telegram: 
+email: 
+rss: 
+rss_rss2: rss2.xml
+rss_atom: atom.xml
 
 # Comment
 duoshuo: 

@@ -15,7 +15,7 @@ body {
 p {
 	line-height: 1.9em;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 a {
@@ -128,12 +128,12 @@ a:hover, a:active {
 .content {
 	height: auto;
 	float: right;
-	width: 60%;
+	width: 65%;
 	margin-top:60px;
 }
 
 .page-top{
-	width: 60%;
+	width: 65%;
 	position: fixed;
 	right: 0;
 	z-index: 3;
@@ -193,7 +193,7 @@ a:hover, a:active {
 
 }
 .sidebar {
-	width: 40%;
+	width: 35%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-color: #fff;

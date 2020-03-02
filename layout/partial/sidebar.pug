@@ -1,7 +1,7 @@
 .sidebar.animated.fadeInDown
   .logo-title
     .title
-      img(src= url_for('images/logo@2x.png'),style="width:127px;")
+      img(src= url_for('images/logo@2x.png'),style="width:140px;")
       h3(title="")
         a(href="/")= config.title
       if theme.description
@@ -15,22 +15,38 @@
           i.fa.fa-twitter
     if theme.instagram
       li
-        a(href="http://instagram.com/" + theme.instagram)
+        a(href="https://instagram.com/" + theme.instagram)
           i.fa.fa-instagram
+    if theme.weibo
+      li
+        a(href="https://weibo.com/" + theme.weibo)
+          i.fa.fa-weibo
+    if theme.facebook
+      li
+        a(href="https://facebook.com/" + theme.facebook)
+          i.fa.fa-facebook
+    if theme.github
+      li
+        a(href="https://github.com/" + theme.github)
+          i.fa.fa-github
+    if theme.telegram
+      li
+        a(href="https://t.me/" + theme.telegram)
+          i.fa.fa-telegram
+    if theme.email
+      li
+        a(href="mailto:" + theme.email)
+          i.fa.fa-envelope
     if theme.rss
       li
         a(href= url_for(theme.rss))
           i.fa.fa-rss
-    if theme.weibo
+    if theme.rss_rss2
       li
-        a(href="http://weibo.com/" + theme.weibo)
-          i.fa.fa-weibo
-    if theme.facebook
+        a(href= url_for(theme.rss_rss2))
+          i.fa.fa-rss
+    if theme.rss_atom
       li
-        a(href="http://facebook.com/" + theme.facebook)
-          i.fa.fa-facebook
-    if theme.github
-      li
-        a(href="http://github.com/" + theme.github)
-          i.fa.fa-github
+        a(href= url_for(theme.rss_atom))
+          i.fa.fa-rss-square
   include footer

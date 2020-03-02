@@ -1,6 +1,6 @@
 {
-  "name": "hexo-theme-Anatole",
-  "version": "1.0.0",
+  "name": "my-hexo-theme-Anatole",
+  "version": "2.0.0",
   "description": "A white and simple hexo theme, originated from a Farbox theme",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ben02/hexo-theme-Anatole"
+    "url": "https://github.com/dongshunyao/my-hexo-theme-Anatole"
   },
   "keywords": [
     "hexo",
@@ -19,7 +19,7 @@
   "author": "Ben Wong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ben02/hexo-theme-Anatole/issues"
+    "url": "https://github.com/dongshunyao/my-hexo-theme-Anatole/issues"
   },
-  "homepage": "https://github.com/Ben02/hexo-theme-Anatole#readme"
+  "homepage": "https://github.com/dongshunyao/my-hexo-theme-Anatole?tab=readme-ov-file"
 }
