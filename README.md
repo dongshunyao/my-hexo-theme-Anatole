@@ -1,3 +1,18 @@
+在原有主题上根据喜好进行了修改
+
+- 将 `归档` 标签改为 `文章`
+- 修改文章标题为 `h2`
+- 修改文章摘要为 100 字符
+- 修改脚注
+- 修改侧边栏图标宽度为 140 px（请自行替换图片）
+- 修改页面左右占比为 35% 和 65%
+
+这里是 [Demo](ry.huaji.store)
+
+---
+
+> 以下是 `README.md` 原文
+
 This work hexo-theme-Anatole is forked from [farbox-theme-Anatole](https://github.com/hi-caicai/farbox-theme-Anatole). Features: two-column, responsive, clean, light, and comfortable.
 
 此主题系 Farbox 主题 [Anatole](https://github.com/hi-caicai/farbox-theme-Anatole) 在 Hexo 平台上的移植版本。主题特色：双栏、响应式设计、纯净、轻巧、观感舒适。
