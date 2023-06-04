@@ -10,6 +10,7 @@
 - 调整导航栏标签顺序
 - 更新 `Font Awesome` 至 `4.7.0`
 - 修改侧边栏链接，添加 `Telegram` 和 `Email` 支持
+- 修改文章分享按钮
 
 这里是 [Demo](https://ry.huaji.store)
 
