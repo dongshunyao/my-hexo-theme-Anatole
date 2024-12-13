@@ -11,6 +11,7 @@
 - 更新 `Font Awesome` 至 `4.7.0`
 - 修改侧边栏链接，添加 `Telegram` 和 `Email` 支持
 - 修改文章分享按钮
+- 修改文章摘要属性词为 `description` 和 `summary`
 
 这里是 [Demo](https://ry.huaji.store)
 
