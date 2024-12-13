@@ -13,6 +13,8 @@ github:
 telegram: 
 email: 
 rss: 
+rss_rss2: rss2.xml
+rss_atom: atom.xml
 
 # Comment
 duoshuo: 

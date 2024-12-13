@@ -9,10 +9,11 @@
 - 修改文章正文字体大小
 - 调整导航栏标签顺序
 - 更新 `Font Awesome` 至 `4.7.0`
-- 修改侧边栏链接，添加 `Telegram` 和 `Email` 支持
+- 修改侧边栏链接，添加 `telegram` 和 `email` 支持
 - 修改文章分享按钮
 - 修改文章摘要属性词为 `description` 和 `summary`
 - 更新 `_config.sample.yml`
+- 修改侧边栏链接顺序，添加 `rss_rss2` 和 `rss_atom` 支持
 
 这里是 [Demo](https://ry.huaji.store)
 

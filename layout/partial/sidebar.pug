@@ -17,10 +17,6 @@
       li
         a(href="https://instagram.com/" + theme.instagram)
           i.fa.fa-instagram
-    if theme.rss
-      li
-        a(href= url_for(theme.rss))
-          i.fa.fa-rss
     if theme.weibo
       li
         a(href="https://weibo.com/" + theme.weibo)
@@ -41,4 +37,16 @@
       li
         a(href="mailto:" + theme.email)
           i.fa.fa-envelope
+    if theme.rss
+      li
+        a(href= url_for(theme.rss))
+          i.fa.fa-rss
+    if theme.rss_rss2
+      li
+        a(href= url_for(theme.rss_rss2))
+          i.fa.fa-rss
+    if theme.rss_atom
+      li
+        a(href= url_for(theme.rss_atom))
+          i.fa.fa-rss-square
   include footer
