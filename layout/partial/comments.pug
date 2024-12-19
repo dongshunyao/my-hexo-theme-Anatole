@@ -58,18 +58,22 @@ if theme.valine
     if theme.valine.enable == true
         a#comments
         #vcomments(style="margin:0 30px;")
-        script(src='//cdn1.lncld.net/static/js/3.0.4/av-min.js')
-        script(src='//cdn.jsdelivr.net/gh/xcss/valine@latest/dist/Valine.min.js')
+        if theme.valine.visitor == true
+            span.leancloud_visitors(id=url_for(page.path), data-flag-title=page.title)
+        script(src='//cdn.jsdelivr.net/npm/leancloud-storage@4.15.2/dist/av-min.js')
+        script(src='//cdn.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js')
         script.
           var valine = new Valine({
             el:'#vcomments',
-            notify:#{theme.valine.notify} || false, 
-            verify:#{theme.valine.verify}|| false, 
-            app_id:'#{theme.valine.appid}',
-            app_key:'#{theme.valine.appkey}',
+            appId:'#{theme.valine.app_id}',
+            appKey:'#{theme.valine.app_key}',
             placeholder:'#{theme.valine.placeholder}',
-            path: window.location.pathname,
-            avatar:'#{theme.valine.avatar}'
+            avatar:'#{theme.valine.avatar}',
+            visitor:'#{theme.valine.visitor}',
+            recordIP:'#{theme.valine.record_ip}',
+            serverURLs:'#{theme.valine.server_urls}',
+            meta:['nick','mail','link'],
+            requiredFields:['nick','mail']
           })
 
 
