@@ -30,6 +30,7 @@
 - 修改文章摘要属性词为 `description` 和 `summary`
 - 更新 `_config.sample.yml` 及 `package.json`
 - 更新 `Valine` 评论系统 至 `1.5.3`
+- 更新 `<meta>` 标签
 
 这里是 [Demo](https://ry.huaji.store/)
 

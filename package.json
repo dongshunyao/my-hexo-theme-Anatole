@@ -1,6 +1,6 @@
 {
   "name": "my-hexo-theme-Anatole",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A white and simple hexo theme, originated from a Farbox theme",
   "main": "index.js",
   "scripts": {
